@@ -23,6 +23,7 @@ const Avtar = () => {
     } else {
       setSelectedImage(null);
       console.error('Please select a valid image file.');
+      alert("Please select a valid image file.")
     }
   };
 
@@ -43,7 +44,7 @@ const Avtar = () => {
             />
           ) : (
             <Image
-              src="/vector.png"
+              src="/Vector.png"
               width={164}
               height={164}
               alt="Picture of the author"
